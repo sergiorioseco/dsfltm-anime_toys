@@ -82,11 +82,19 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: end;
   background-color: white;
   width: 300px;
 }
+
+.card-img-sec {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .product-card img {
-  width: 100%;
+  width: 95%;
   height: auto;
 }
 
